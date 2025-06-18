@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: quantico;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(39, 44, 61, 1);
+  height: 70px;
+}
+
+#adiv {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header input {
+  width: 300px;
+  height: 40px;
+  font-size: 30px;
+  border-radius: 20px;
+  text-align: end;
+  border: none;
+  background-color: rgba(64, 72, 100, 1);
+}
+
+select {
+  height: 40px;
+  border-radius: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(64, 72, 100, 1);
+  color: white;
+  border: none;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerbtm {
+  background-image: url(./95254beaaafd285b4e172b29b2bb169b461afa6d.jpg);
+  height: 754px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+#ha {
+  font-size: 40px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: -30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: black;
+  display: block;
+  height: 100%;
+}
+
+.card div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.cardd {
+  background-color: black;
+  height: 500px;
+  display: block;
+}
+
+.box div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin: 0;
+}
+
+.box p {
+  width: 500px;
+}
+
+.text {
+  margin-left: 200px;
+  padding-top: 90px;
+}
+
+.textt {
+  margin-left: 200px;
+}
+
+.box {
+  background-color: rgba(27, 30, 39, 1);
+  display: block;
+  margin-top: 0;
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  background-color: rgba(39, 44, 61, 1);
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+a:hover {
+  color: rgba(255, 156, 40, 1);
+  font-weight: bolder;
+  text-decoration: underline;
+}
